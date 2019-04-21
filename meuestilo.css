@@ -1,0 +1,197 @@
+/* Meu CSS */
+body,
+html{
+	margin:  0; 
+	padding: 0;
+	font-size:18px;
+}
+body{
+	position: absolute;
+	width: 1024px;
+	height: 1200px;
+	background: #1E1E27;
+}
+a, a img{
+	text-decoration:none;
+	border:none;
+}
+img{
+	max-width:100%;
+	height:auto;
+}
+.principal{
+	width: 100vw;
+	height: 100vh;
+	color: #444;
+	margin: 0 auto;
+	font-family:sans-serif;
+	justify-content: center;
+	
+	
+}
+.cabecalho, 
+.logo, 
+.rodape,
+.menu{
+	width:100%;
+	display:block;
+	clear:both;
+}
+.cabecalho{
+	height:100px;
+}
+.logo-cabecalho{
+
+	position: absolute;
+	width: 180px;
+	height: 170px;
+	left: 442px;
+	top: 16px;
+	
+}
+
+.titulo {
+	position: absolute;
+	width: 926px;
+	height: 61px;
+	left: 49px;
+	top: 116px;
+
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 34px;
+	text-align: center;
+
+	color: #F6C42E;
+
+}
+
+.logo-cabecalho a{
+	/* Oque VaiLer Hoje? */
+
+position: absolute;
+width: 68px;
+height: 66px;
+left: 543px;
+top: 28px;
+
+font-family: Advent Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 23px;
+
+color: #F6C42E;
+
+}
+
+.menu{
+	position: absolute;
+
+}
+.menu ul li, 
+.menu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+		
+}
+
+.menu ul li{
+	display:inline-block;
+	text-transform: uppercase;
+	cursor: pointer;
+	-webkit-transition: all 200ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+	-moz-transition: all 200ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+	-o-transition: all 200ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+	transition: all 200ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+	-webkit-transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+  -moz-transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+  -o-transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+  transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+}
+
+.menu span {
+	font: 700 18px/18px"Open Sans";
+	color:#DEB02B;;
+	line-height: 75px;
+  }
+  .menu li:hover {
+	background: #DEB02B;;
+  }
+  .menu li span:hover {
+	color: #474747;
+  }
+
+.menu ul li a{
+	display:block;
+	padding:13px 20px;
+	background: #DEB02B;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	border-radius: 5px;
+	color: #000000;
+	margin: 12px;
+	height: 45px;
+	width: 150px;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.corpo{
+	position:absolute;
+}
+
+.livro{
+	position: absolute;
+	width: 990px;
+	height: 140px;
+	left: 17px;
+	top: 169px;
+}
+
+.livro hr {
+	background:#a6a6a6;
+}
+
+.imagem img {
+	
+	width:330px; 
+	float:left; 
+	margin:5px; 
+	
+}
+
+.sobre {
+	
+	font-family: Arial;
+	font-size: 28px;
+	color: #FFFFFF;
+	width:300px;
+}
+
+
+
+.texto p{
+	color: #FFFFFF;
+	font-family: Roboto Mono;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	
+}
+
+.texto img{
+	width: 1800px;
+  	height: 250px;	
+}
+
+.texto table td {
+	padding:5px 5px;
+}
+
+
+	
