@@ -1,56 +1,75 @@
 /* Meu CSS */
+
 body,
 html{
+
 	margin:  0; 
 	padding: 0;
 	font-size:18px;
 }
+
 body{
+
 	position: absolute;
 	width: 1024px;
 	height: 1200px;
 	background: #1E1E27;
+
 }
+
 a, a img{
+
 	text-decoration:none;
 	border:none;
+
 }
+
 img{
+
 	max-width:100%;
 	height:auto;
+
 }
+
 .principal{
+
 	width: 100vw;
 	height: 100vh;
 	color: #444;
 	margin: 0 auto;
 	font-family:sans-serif;
 	justify-content: center;
-	
-	
+
 }
+
 .cabecalho, 
 .logo, 
 .rodape,
 .menu{
+
 	width:100%;
 	display:block;
 	clear:both;
 }
+
 .cabecalho{
+
 	height:100px;
+
 }
+
 .logo-cabecalho{
 
 	position: absolute;
 	width: 180px;
 	height: 170px;
 	left: 442px;
-	top: 16px;
-	
+	top: 16px;	
+
 }
 
 .titulo {
+
 	position: absolute;
 	width: 926px;
 	height: 61px;
@@ -69,28 +88,29 @@ img{
 }
 
 .logo-cabecalho a{
-	/* Oque VaiLer Hoje? */
+	
+	position: absolute;
+	width: 68px;
+	height: 66px;
+	left: 543px;
+	top: 28px;
 
-position: absolute;
-width: 68px;
-height: 66px;
-left: 543px;
-top: 28px;
+	font-family: Advent Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 23px;
 
-font-family: Advent Pro;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 23px;
-
-color: #F6C42E;
+	color: #F6C42E;
 
 }
 
 .menu{
+
 	position: absolute;
 
 }
+
 .menu ul li, 
 .menu ul{
 	margin:0;
@@ -100,6 +120,7 @@ color: #F6C42E;
 }
 
 .menu ul li{
+
 	display:inline-block;
 	text-transform: uppercase;
 	cursor: pointer;
@@ -108,24 +129,32 @@ color: #F6C42E;
 	-o-transition: all 200ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
 	transition: all 200ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
 	-webkit-transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
-  -moz-transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
-  -o-transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
-  transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+	-moz-transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+	-o-transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+	transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+
 }
 
 .menu span {
+
 	font: 700 18px/18px"Open Sans";
 	color:#DEB02B;;
 	line-height: 75px;
+
   }
   .menu li:hover {
+
 	background: #DEB02B;;
+
   }
   .menu li span:hover {
+
 	color: #474747;
+
   }
 
 .menu ul li a{
+
 	display:block;
 	padding:13px 20px;
 	background: #DEB02B;
@@ -142,10 +171,12 @@ color: #F6C42E;
 }
 
 .corpo{
+
 	position:absolute;
 }
 
 .livro{
+
 	position: absolute;
 	width: 990px;
 	height: 140px;
@@ -154,6 +185,7 @@ color: #F6C42E;
 }
 
 .livro hr {
+
 	background:#a6a6a6;
 }
 
@@ -173,9 +205,8 @@ color: #F6C42E;
 	width:300px;
 }
 
-
-
 .texto p{
+	
 	color: #FFFFFF;
 	font-family: Roboto Mono;
 	font-style: normal;
@@ -192,6 +223,3 @@ color: #F6C42E;
 .texto table td {
 	padding:5px 5px;
 }
-
-
-	
