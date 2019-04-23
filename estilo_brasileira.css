@@ -1,0 +1,292 @@
+
+/*Literatura brasileira*/
+
+
+body,
+html{
+
+	margin:  0; 
+	padding: 0;
+	font-size:18px;
+	font-family: Roboto Mono;
+}
+
+body{
+
+	position: absolute;
+	width: 1024px;
+	height: 1200px;
+	background: #1E1E27;
+
+}
+
+
+a, a img{
+
+	text-decoration:none;
+	border:none;
+
+}
+
+img{
+
+	max-width:100%;
+	height:auto;
+
+}
+
+.br_logo #log{ max-width:200%;}
+
+
+
+.br_logo{
+	position: absolute;
+	width: 96px;
+	height: 94px;
+	left: 442px;
+	top: 16px;
+
+}
+
+.br_titulo{
+	/* Sobre a literatura brasileira... */
+
+position: absolute;
+width: 926px;
+height: 61px;
+left: 49px;
+top: 116px;
+
+font-family: Advent Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 34px;
+text-align: center;
+
+color: #F6C42E;
+
+}
+
+.retangulo2{
+	/* Rectangle 2 */
+
+position: absolute;
+width: 986px;
+height: 4px;
+left: 18px;
+top: 158px;
+
+background: #FFFFFF;
+opacity: 0.1;
+}
+
+.br_books{
+	/* books */
+
+position: absolute;
+width: 990px;
+height: 126px;
+left: 17px;
+top: 169px;
+}
+
+.retangulo3{
+	/* Rectangle 2.1 */
+
+position: absolute;
+width: 986px;
+height: 4px;
+left: 18px;
+top: 301px;
+
+background: #FFFFFF;
+opacity: 0.1;
+}
+
+.br_menu{
+	margin-left: 110px;
+	top: 300px;
+	position: absolute;
+	text-align: center;
+
+}
+
+.br_menu ul li ul{
+	margin:0px;
+	padding:0;
+	list-style:none;
+		
+}
+
+.br_menu ul li{
+
+	display:inline-block;
+	text-transform: uppercase;
+	cursor: pointer;
+	-webkit-transition: all 200ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+	-moz-transition: all 200ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+	-o-transition: all 200ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+	transition: all 200ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+	-webkit-transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+	-moz-transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+	-o-transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+	transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+
+}
+
+.br_menu span {
+
+	font: 700 18px/18px"Open Sans";
+	color:#DEB02B;
+	line-height: 75px;
+
+  }
+  .br_menu li:hover {
+
+	background: #DEB02B;;
+
+  }
+  .br_menu li span:hover {
+
+	color: #474747;
+
+  }
+
+.br_menu ul li a{
+
+	display:block;
+	padding:13px 20px;
+	background: #DEB02B;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	border-radius: 5px;
+	color: #000000;
+	margin: 12px;
+	height: 45px;
+	width: 150px;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.br_img1{
+	/* Desembarque_de_Pedro_Álvares_Cabral_em_Porto_Seguro_em_1500_by_Oscar_Pereira_da_Silva_(1865–1939) */
+
+position: absolute;
+width: 292px;
+height: 408px;
+left: 24px;
+top: 400px;
+
+}
+
+.br_retangle2{
+	/* Rectangle 2 */
+
+position: absolute;
+width: 430px;
+height: 4px;
+left: 100px;
+top: 200px;
+
+background: #FFFFFF;
+opacity: 0.1;
+transform: rotate(-90deg);
+}
+
+.br_titulo2{
+	/* Divisão da Literatura Brasileira */
+
+position: absolute;
+width: 622px;
+height: 36px;
+left: 360px;
+top: 20px;
+
+font-family: Carrois Gothic SC;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: normal;
+
+color: #FFFFFF;
+
+}
+
+
+.br_text{
+	/*A literatura brasileira é subdividida em duas grandes 
+	eras que acompanham a evolução política e econômica do País.
+	A Era Colonial e a Era Nacional são separadas por um período
+	de transição que corresponde à emancipação política do Brasil.
+	As datas que delimitam fim e início de cada era são, na verdade,
+	marcos onde acentua-se um período de ascensão e outro de decadência.
+	As eras são divididas em escolas literárias, também chamadas de estilos
+	de época. */
+
+position: absolute;
+width: 611px;
+height: 368px;
+left: 368px;
+top: 110px;
+
+font-family: Roboto Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 23px;
+
+color: #FFFFFF;
+
+	
+}
+
+.br_titulo3{
+	/* O cortiço, de Aluísio Azevedo (1890) */
+
+position: absolute;
+width: 638px;
+height: 36px;
+left: 21px;
+top: 430px;
+
+font-family: Carrois Gothic SC;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: normal;
+
+color: #FFFFFF;
+
+}
+
+.br_img3{
+	position: absolute;
+width: 249px;
+height: 404px;
+left: 742px;
+top: 450px;
+}
+
+.br_text2{
+	
+	/* A literatura brasileira é subdividida em duas grandes eras que acompanham a evolução política e econômica do País. 
+	A Era Colonial e a Era Nacional são separadas por um período de transição que corresponde à emancipação política do Brasil. 
+	As datas que delimitam fim e início de cada era são, na verdade, marcos onde acentua-se um período de ascensão e outro de decadência. 
+	As eras são divididas em escolas literárias, também chamadas de estilos de época. */
+
+position: absolute;
+width: 600px;
+height: 368px;
+left: 20px;
+top: 460px;
+
+font-family: Roboto Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 23px;
+
+color: #FFFFFF;
+}

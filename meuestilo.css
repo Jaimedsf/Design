@@ -76,7 +76,7 @@ img{
 	left: 49px;
 	top: 116px;
 
-	font-family: Arial;
+	font-family: Roboto Mono;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 36px;
@@ -328,4 +328,131 @@ top: 350px;
 
 .textobr3 table td {
 	padding:5px 5px;
+}
+
+/*Literatura Americana -- vandergleison*/
+
+
+.usa_img{
+	position: absolute;
+width: 296px;
+height: 424px;
+left: 17px;
+top: 401px;
+
+}
+.usa_titulo1{
+	/* O inicío de tudo... */
+
+position: absolute;
+width: 466px;
+height: 36px;
+left: 360px;
+top: 404px;
+
+font-family: Carrois Gothic SC;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: normal;
+
+color: #FFFFFF;
+	
+}
+
+.usa_text{
+	
+	/* A literatura estadunidense inicial deve muito às formas
+	e estilos originários da Europa. por exemplo, "Wieland" e outros
+	romances de Charles Brockden Brown (1771-1810) inspiram-se diretamente
+	nos romances góticos que então eram escritos na Inglaterra. Mesmo as 
+	narrativas impecavelmente urdidas por Washington Irving (1783-1859) - principalmente 
+	Rip Van Winkle e The Legend of Sleepy Hollow - parecem claramente européias apesar de
+	a ação se desenrolar nos Estados Unidos. */
+
+position: absolute;
+width: 380px;
+height: 107px;
+left: 360px;
+top: 459px;
+
+font-family: Roboto Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 23px;
+
+color: #FFFFFF;
+	
+}
+
+.usa_titulo2{
+	
+	/* Black Boy, de Richard Wright */
+
+position: absolute;
+width: 493px;
+height: 36px;
+left: 21px;
+top: 847px;
+
+font-family: Carrois Gothic SC;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: normal;
+
+color: #FFFFFF;
+}
+
+.retangulo{
+	/* Rectangle 2 */
+
+position: absolute;
+width: 692px;
+height: 4px;
+left: 21px;
+top: 897px;
+
+background: #FFFFFF;
+opacity: 0.1;
+}
+
+.usa_text2{
+	/* Black Boy é um livro entre memória e ficção
+	sobre a infância e juventude de Richard Wright.
+	Ele é dividido em duas partes, “As noites do sul”,
+	onde conta suas aventuras no sul do país e 
+	“O Horror e a Glória”, com seu início de adolescência
+	em Chicago. Trata-se da história de um rapaz negro 
+	em um país em que apenas brancos faziam sucesso. 
+	A cada narrativa e cada etapa entendemos cada vez 
+	mais como alguns preconceitos se colocam na memória
+	e como, para alguns, as barreiras para uma vida plena
+	são, muitas vezes, quase intransponíveis. */
+
+position: absolute;
+width: 685px;
+height: 256px;
+left: 21px;
+top: 915px;
+
+font-family: Roboto Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 23px;
+
+color: #FFFFFF;
+
+}
+
+.usa_img2{
+	
+	position: absolute;
+	width: 268px;
+	height: 428px;
+	left: 730px;
+	top: 743px;
+	
 }
