@@ -196,6 +196,18 @@ img{
 	margin:5px; 
 	
 }
+.imagembr img {
+	
+	width:330px; 
+	float:left; 
+	margin:5px; 
+	
+}
+.imagembr p{
+        width:430px; 
+	float:left; 
+	margin:5px;
+}
 
 .sobre {
 	
@@ -203,6 +215,21 @@ img{
 	font-size: 28px;
 	color: #FFFFFF;
 	width:300px;
+}
+.sobre2{
+        position: absolute;
+        width: 522px;
+        height: 36px;
+        left: 360px;
+        top: 415px;
+
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: normal;
+
+color: #FFFFFF;
 }
 
 .texto p{
@@ -221,5 +248,84 @@ img{
 }
 
 .texto table td {
+	padding:5px 5px;
+}
+
+.textobr p{
+	
+	color: #FFFFFF;
+	font-family: Roboto Mono;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	
+}
+
+.textobr img{
+	width: 1800px;
+  	height: 250px;	
+}
+
+.textobr table td {
+	padding:5px 5px;
+}
+
+.textobr2 p{
+	
+	position: absolute;
+width: 611px;
+height: 368px;
+left: 360px;
+top: 460px;
+
+font-family: Roboto Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 22px;
+
+color: #FFFFFF;
+
+	
+}
+
+.textobr2 img{
+	width: 1800px;
+  	height: 250px;	
+}
+
+.textobr2 table td {
+	padding:5px 5px;
+}
+
+.textobr3 p{
+	
+	position: absolute;
+width: 681px;
+height: 267px;
+left: 5px;
+top: 550px;
+
+font-family: Roboto Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 22px;
+
+color: #FFFFFF;
+
+
+	
+}
+
+.textobr3 img{
+	position: absolute;
+width: 268px;
+height: 428px;
+left: 730px;
+top: 350px;	
+}
+
+.textobr3 table td {
 	padding:5px 5px;
 }
